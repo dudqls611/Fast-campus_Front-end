@@ -1,5 +1,23 @@
 div {
-  width: 200px;
-  height: 100px;
+
   background-color: orange;
+}
+
+a {
+  font-size: 50px;
+}
+
+span {
+  color: yellow;
+  background-color: black;
+}
+
+td {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+#ad {
+  text-decoration: underline;
+  color: green;
 }
