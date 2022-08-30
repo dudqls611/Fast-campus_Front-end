@@ -12,9 +12,18 @@
   width: 300px;
   background-color: royalblue;
 }
-input {
-
-}
 input:focus {
   background-color: orange;
+}
+.fruits span:first-child {
+  color: pink;
+}
+.fruits h3:last-child {
+  color: pink;
+}
+.fruits *:nth-child(4) {
+  color: blue;
+}
+.fruits *:nth-child(2n) {
+  color: aquamarine;
 }
