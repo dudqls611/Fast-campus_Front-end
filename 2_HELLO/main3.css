@@ -1,0 +1,31 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+/* 가상요소 선택자 */
+
+/* box 앞에 삽입 */
+/* .box::before {
+  content: "Before--";
+} */
+
+/* box 뒤에 삽입 */
+.box::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(122, 153, 248);
+}
+
+/* 속성 선택자 */
+[type="text"]  {
+  background-color: orange;
+}
+[type="password"]  {
+  background-color: blueviolet;
+}
+[data-fruit-name] {
+  color:red;
+}
