@@ -29,3 +29,18 @@
 [data-fruit-name] {
   color:red;
 }
+
+.parent {
+  width: 300px;
+  height: 200px;
+  background-color: green;
+}
+.child {
+  width: 100px;
+  /* inherit 부모요소로부터 상속 */
+  height: inherit;
+  background-color: inherit;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}
