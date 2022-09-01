@@ -30,6 +30,8 @@
 }
 
 .container .item:first-child {
-  border: 5px dashed purple;
-
+  border: 4px dashed purple;
+  padding: 20px;
+  /* box-sizing:border-box  ->  요소의 내용 + padding + border로 크기 계산 */
+  box-sizing: border-box;
 }
