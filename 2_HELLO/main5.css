@@ -1,0 +1,47 @@
+.parent {
+  width: 200px;
+  height: 150px;
+  background-color: royalblue;
+  margin: 20px;
+  padding: 20px;
+  /* overflow -> 넘치는 영역을 제어 visible, hidden, auto(scroll) */
+  overflow: auto;
+}
+.child {
+  width: 300px;
+  height: 100px;
+  background-color: orange;
+}
+
+span {
+  /* span을 block 성질을 갖게 해줌 */
+  display: block;
+  width: 120px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+}
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: serif;
+}
+p {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid;
+  box-sizing: border-box;
+  line-height: 2.4;
+}
+a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+}
