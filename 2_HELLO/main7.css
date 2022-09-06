@@ -9,8 +9,10 @@ justify-content: 수평정렬
 
 align-items: 한 줄에 대해 정렬
 
+
 flex-grow : flex item의 증가 너비 비율, 기본값 0
 flex-shrink : flex item의 감소 너비 비율, 기본값 1
+
 */
 
 .container {
