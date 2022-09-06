@@ -1,0 +1,26 @@
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 
+    width .5s, 
+    background-color 2s;
+}
+div:active {
+  width: 300px;
+  background-color: royalblue;
+} */
+body {
+  padding: 100px;
+}
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transform: perspective(150px) rotateX(45deg) translateX(100px);
+}
