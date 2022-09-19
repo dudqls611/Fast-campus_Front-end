@@ -82,4 +82,12 @@ let isHidePromotion = false;
 promotionToggleBtn.addEventListener('click', function () {
   // false를 true가 되게 한다
   isHidePromotion = !isHidePromotion
+  // if 안에 true 값이 들어감
+  if (isHidePromotion) {
+    // 숨김처리
+    promotionEl.classList.add('hide');
+  } else {
+    // 보임처리
+    promotionEl.classList.remove('hide');
+  }
 });
